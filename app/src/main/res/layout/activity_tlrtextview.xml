@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.think.tlr.TLRLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:uiloader="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tlrlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    uiloader:enableRefresh="true"
+    uiloader:enableLoad="false"
+    uiloader:keepContentLayout="false"
+    uiloader:keepHeadRefreshing="true">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        uiloader:label="content"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:background="@drawable/demo_refresh_text_bg"/>
+
+</com.think.tlr.TLRLinearLayout>
